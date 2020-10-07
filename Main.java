@@ -13,13 +13,14 @@ public class Main {
       userNumber = input.nextInt();
     }
     
-    // for loop that stops when it reaches 1 less than the number
+    // for loop that stops when it reaches 1 less than the users number inside of a for loop that stops when it reaches just below the users number
     
     for (int i = 0; i < userNumber; i++) {
       for (int j = 0; j < userNumber; j++) {
         // print an astric
         System.out.print("*");
       }
+      // indents so the astrics go to the next line
       System.out.println("");
     }
     
